@@ -7,12 +7,11 @@ using Senac.Exercicio.Service;
 namespace Senac.Exercicio.Api.Controllers
 {
 
-    [ApiController]
-    [Route("[controller]")]
 
-    public class PessoaEnderecoController
-
-        [HttpGet, Route("logradrou")]
-   
+    public class PessoaEnderecoController()
+    { }
 }
+      
+   
+
 

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="PessoaEnderecoService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Senac.Exercicio.Domain\Senac.Exercicio.Domain.csproj" />
     <ProjectReference Include="..\Senac.Exercicio.Infraestrutura\Senac.Exercicio.Infraestrutura.csproj" />
   </ItemGroup>

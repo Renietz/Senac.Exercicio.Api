@@ -23,7 +23,7 @@ namespace Senac.Exercicio.Infraestrutura.Data
 
     public class Banco
     {
-        private static string _strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Lucas\Downloads\Senac.Exercicio.Api 5\Senac.Exercicio.Api\Senac.Exercicio.Infraestrutura\Data\MeuBanco.mdf"";Integrated Security=True";
+        private static string _strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Meus Documentos\Desktop\aula 12.11\Senac.Exercicio.Api\Senac.Exercicio.Infraestrutura\Data\MeuBanco.mdf"";Integrated Security=True";
         private static volatile Banco instance;
         private static object syncRoot = new Object();
         private static int utilizacoes = 0;
